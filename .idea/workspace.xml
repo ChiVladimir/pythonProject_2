@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e42ec4f3-cbe9-4053-a20a-693858650dc5" name="Changes" comment="МОДУЛЬ №1. ПРАКТИКА GIT. Списки. Индексация и методы списков" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/master_2" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ChiVladimir&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ChiVladimir/pythonProject_2.git&quot;,
+    &quot;accountId&quot;: &quot;7ded3c25-ec7d-4326-ba3d-ff470d72c5fc&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2lrzNKmS4Cyo4yTyuPayJh9WtEt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Homework_1.executor": "Run",
+    "Python.Proba_1.executor": "Run",
+    "Python.Proba_2.executor": "Run",
+    "Python.Proba_3.executor": "Run",
+    "Python.Proba_4.executor": "Run",
+    "Python.Proba_5.executor": "Run",
+    "Python.module_1_3.executor": "Run",
+    "Python.module_1_4.executor": "Run",
+    "Python.module_1_5.executor": "Run",
+    "Python.module_1_6.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master__2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e42ec4f3-cbe9-4053-a20a-693858650dc5" name="Changes" comment="" />
+      <created>1725952941700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725952941700</updated>
+    </task>
+    <task id="LOCAL-00001" summary="МОДУЛЬ №1. ПРАКТИКА GIT. Строки и индексация строк">
+      <option name="closed" value="true" />
+      <created>1726125935071</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726125935071</updated>
+    </task>
+    <task id="LOCAL-00002" summary="МОДУЛЬ №1. ПРАКТИКА GIT. Строки и индексация строк">
+      <option name="closed" value="true" />
+      <created>1726214704309</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726214704309</updated>
+    </task>
+    <task id="LOCAL-00003" summary="МОДУЛЬ №1. ПРАКТИКА GIT. Строки и индексация строк">
+      <option name="closed" value="true" />
+      <created>1726215998048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726215998048</updated>
+    </task>
+    <task id="LOCAL-00004" summary="МОДУЛЬ №1. ПРАКТИКА GIT. Строки и индексация строк">
+      <option name="closed" value="true" />
+      <created>1726233197391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726233197392</updated>
+    </task>
+    <task id="LOCAL-00005" summary="МОДУЛЬ №1. ПРАКТИКА GIT. Списки. Индексация и методы списков">
+      <option name="closed" value="true" />
+      <created>1726467134403</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726467134403</updated>
+    </task>
+    <task id="LOCAL-00006" summary="МОДУЛЬ №1. ПРАКТИКА GIT. Списки. Индексация и методы списков">
+      <option name="closed" value="true" />
+      <created>1726467359468</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726467359468</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master_2" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master_2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="МОДУЛЬ №1. ПРАКТИКА GIT. Строки и индексация строк" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master_2' into master_2" />
+    <MESSAGE value="МОДУЛЬ №1. ПРАКТИКА GIT. Списки. Индексация и методы списков" />
+    <option name="LAST_COMMIT_MESSAGE" value="МОДУЛЬ №1. ПРАКТИКА GIT. Списки. Индексация и методы списков" />
+  </component>
+</project>
