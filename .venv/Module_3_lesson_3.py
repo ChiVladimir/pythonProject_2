@@ -9,9 +9,12 @@ print_params(1, 2, 3)
 
 def print_params(*params):
     print(params)
+    for i in range(0, len(params)):
+        print(params[i])
 
 list_ = [1, 2, 3]
-print_params(1, 2, 3,4 ,5, 6, 7)
+print_params(1, 2, 3, 4 ,5, 6, 7)
+print_params(1, 2, 3, 4 ,5, 6, 7, (9, 8, 7))
 print_params(list_, 2, 3)
 print_params(*list_)
 print_params(*list_, 4)
