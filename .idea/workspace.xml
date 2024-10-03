@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e42ec4f3-cbe9-4053-a20a-693858650dc5" name="Changes" comment="Merge remote-tracking branch 'origin/master_2' into master_2">
-      <change afterPath="$PROJECT_DIR$/repka.txt" afterDir="false" />
+    <list default="true" id="e42ec4f3-cbe9-4053-a20a-693858650dc5" name="Changes" comment="Модуль 4 Урок и дз 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,20 +63,90 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Homework_1.executor": "Run",
+    "Python.Module_1.executor": "Run",
+    "Python.Module_2.executor": "Run",
+    "Python.Module_2_lesson_5.executor": "Run",
+    "Python.Module_3_additional_practice.executor": "Run",
+    "Python.Module_3_hw_1.executor": "Run",
+    "Python.Module_3_hw_2.executor": "Run",
+    "Python.Module_3_hw_3.executor": "Run",
+    "Python.Module_3_hw_4.executor": "Run",
+    "Python.Module_3_hw_5.executor": "Run",
+    "Python.Module_3_lesson_1.executor": "Run",
+    "Python.Module_3_lesson_2.executor": "Run",
+    "Python.Module_3_lesson_3.executor": "Run",
+    "Python.Module_3_lesson_4.executor": "Run",
+    "Python.Module_3_lesson_6.executor": "Run",
+    "Python.Module_3_lesson_6_7.executor": "Run",
+    "Python.Module_3_lesson_8.executor": "Run",
+    "Python.Module_3_lesson_calculator.executor": "Run",
+    "Python.Module_4_1.executor": "Run",
+    "Python.Module_4_hw_1_fake_math.executor": "Run",
+    "Python.Module_4_hw_1_true_math.executor": "Run",
+    "Python.Module_4_lesson_1.executor": "Run",
+    "Python.Module_4_lesson_1_2.executor": "Run",
+    "Python.Module_4_lesson_2.executor": "Run",
+    "Python.Module_4_lesson_2_2.executor": "Run",
+    "Python.Module_4_lesson_3_2.executor": "Run",
     "Python.Proba_1.executor": "Run",
     "Python.Proba_2.executor": "Run",
     "Python.Proba_3.executor": "Run",
     "Python.Proba_4.executor": "Run",
     "Python.Proba_5.executor": "Run",
+    "Python.SandBox.executor": "Run",
     "Python.module_1_3.executor": "Run",
     "Python.module_1_4.executor": "Run",
     "Python.module_1_5.executor": "Run",
     "Python.module_1_6.executor": "Run",
+    "Python.module_1_fin.executor": "Run",
+    "Python.module_2_hard.executor": "Run",
+    "Python.proba_proba.executor": "Run",
+    "Python.tic-tac-toe.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/vladimirchi/PycharmProjects/pythonProject_2/.venv/Package_1",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.venv/Package_1" />
+      <recent name="$PROJECT_DIR$/.venv/Package_1/Package_2" />
+      <recent name="$PROJECT_DIR$/.venv" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.venv/package_1/package_2/paсkage_3" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Module_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv/package_1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/package_1/package_2/paсkage_3/Module_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Module_2" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -165,7 +235,79 @@
       <option name="project" value="LOCAL" />
       <updated>1726484320137</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/master' into master">
+      <option name="closed" value="true" />
+      <created>1727073156968</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727073156968</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Модуль 3">
+      <option name="closed" value="true" />
+      <created>1727082687246</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727082687246</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Модуль 3 домашнее задание 2">
+      <option name="closed" value="true" />
+      <created>1727164757628</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727164757628</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Модуль 3 домашнее задание 3">
+      <option name="closed" value="true" />
+      <created>1727184888957</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727184888958</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Модуль 3 домашнее задание 4">
+      <option name="closed" value="true" />
+      <created>1727250785896</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727250785896</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Модуль 3 домашнее задание 5">
+      <option name="closed" value="true" />
+      <created>1727274802121</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727274802121</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Модуль 3 уроки 6-7-8 и калькулятор">
+      <option name="closed" value="true" />
+      <created>1727349544843</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727349544843</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Модуль 3 Дополнительное задание">
+      <option name="closed" value="true" />
+      <created>1727442025066</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1727442025066</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Модуль 4 Урок и дз 1">
+      <option name="closed" value="true" />
+      <created>1727858834972</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1727858834972</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,6 +352,15 @@
     <MESSAGE value="МОДУЛЬ №1. ПРАКТИКА GIT. Строки и индексация строк" />
     <MESSAGE value="МОДУЛЬ №1. ПРАКТИКА GIT. Списки. Индексация и методы списков" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master_2' into master_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master_2' into master_2" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master' into master" />
+    <MESSAGE value="Модуль 3" />
+    <MESSAGE value="Модуль 3 домашнее задание 2" />
+    <MESSAGE value="Модуль 3 домашнее задание 3" />
+    <MESSAGE value="Модуль 3 домашнее задание 4" />
+    <MESSAGE value="Модуль 3 домашнее задание 5" />
+    <MESSAGE value="Модуль 3 уроки 6-7-8 и калькулятор" />
+    <MESSAGE value="Модуль 3 Дополнительное задание" />
+    <MESSAGE value="Модуль 4 Урок и дз 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Модуль 4 Урок и дз 1" />
   </component>
 </project>
