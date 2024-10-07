@@ -7,7 +7,7 @@ def get_multiplied_digits(number):
         mult = first * get_multiplied_digits(int(str_number[1:]))
         return mult
     return first
-
+    print(result)
 
 
 result = get_multiplied_digits(40203)

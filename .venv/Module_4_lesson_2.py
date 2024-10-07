@@ -3,8 +3,7 @@
 # Main
 
 from Module_4_lesson_2_2 import say_hi as s_h
-import sys
-import math
+import sys, math
 import random
 import tkinter
 #import [path].simple_draw - path - каталог для вызова модуля
