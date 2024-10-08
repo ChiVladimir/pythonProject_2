@@ -11,6 +11,10 @@ for k in numbers_1:
             elif k % j == 0:
                 #print (k, ' кратно сумме', m, "+", n, "=", j)
                 pairs_4_pswd.append(m)
-                pairs_4_pswd.append(n)
+                # pairs_4_pswd.append(n)
     print(k, pairs_4_pswd)
     pairs_4_pswd.clear()
+
+#range(10)       - 0 1 2 3 4 5 6 7 8 9
+#range(1,9)      - 1 2 3 4 5 6 7 8
+#range(0,10,2)   - 0 2 4 6 8
