@@ -19,43 +19,51 @@ class User:
         if password == password_confirm:
             self.password = password
 
+def check_pswd(pswd):
+    overlap = set()
+    check = True
+    letters_app ={'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'}
+    letters_low = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'}
+    symbols = {'!', '#', '$', '%', '^', '&', '*', '(', ')', '—', '_ ', '+', '=', ';', ':', ',' '.', '/', '?', '|', '`', '~', '[', ']'}
+    numbers = {'0','1','2','3','4','5','6','7','8','9'}
+    print(letters_app)
+    print(letters_low)
+    print(symbols)
+    print(numbers)
+
+    i = 0
+    for i in range(len(pswd)):
+        overlap.add(pswd[i])
+        i+=1
+    print (overlap)
+    if len(overlap) < 6:
+        check = False
+        return check, "The password must contain more than 6 characters"
+    elif len(list(overlap & letters_app)) == 0:
+        check = False
+        return check, "The password must contain at least one uppercase letter"
+    elif len(list(overlap & letters_low)) == 0:
+        check = False
+        return check, "The password must contain at least one lowercase letter "
+    elif len(list(overlap & symbols)) == 0:
+        check = False
+        return check, "The password must contain at least one special symbol"
+    elif len(list(overlap & numbers)) == 0:
+        check = False
+        return check, "The password must contain at least one digit"
+
+
 if __name__ == '__main__':
+
     database = Database()
-    user = User(input("Enter username   : "),input("Enter password   : "),input("Re-Enter password: "))
+    while True:
+#        choice = input('Hello! Select the action: \n1 - Enter\n2 - Registration:\n')
+        user = User(input("Enter username   : "), password1 := input("Enter password   : "), password2 := input("Re-Enter password: ")) # "моржовый оператор"
+        if password1 != password2:
+            print("Password wrong!")
+            exit()
+        p1 = check_pswd(password1)
     database.add_user(user.username, user.password)
 
 
-# def calculate_structure_sum(data):
-#
-#     for_sum = []
-#     result = int()
-#     if isinstance(data, dict):
-#         data =  list(zip(data.keys(), data.values()))
-#     for i in range(0, len(data)):
-#
-#         if isinstance(data[i], int):
-#             for_sum.append(data[i])
-#
-#         if isinstance(data[i], str):
-#             for_sum.append(len(data[i]))
-#
-#         if isinstance(data[i], tuple):
-#             for_sum.append(calculate_structure_sum(data[i]))
-#
-#         if isinstance(data[i], list):
-#             for_sum.append(calculate_structure_sum(data[i]))
-#
-#         if isinstance(data[i], dict):
-#             for_sum.append(calculate_structure_sum(data[i]))
-#
-#         if isinstance(data[i], set):
-#             for_sum.append(calculate_structure_sum(tuple(data[i])))
-#
-#     result = sum(for_sum)
-#
-#     return result
-#
-#
-# data_structure = [[1, 2, 3],{'a': 4, 'b': 5},(6, {'cube': 7, 'drum': 8}), "Hello", ((), [{(2, 'Urban', ('Urban2', 35))}])]
-# result = calculate_structure_sum(data_structure)
-# print(result)
+print(database.data)
