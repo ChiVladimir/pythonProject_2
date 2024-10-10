@@ -61,77 +61,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Homework_1.executor": "Run",
-    "Python.Module_1.executor": "Run",
-    "Python.Module_2.executor": "Debug",
-    "Python.Module_2_hw_2.executor": "Run",
-    "Python.Module_2_hw_3_4.executor": "Run",
-    "Python.Module_2_hw_5.executor": "Run",
-    "Python.Module_2_hw_6.executor": "Run",
-    "Python.Module_2_lesson_5.executor": "Run",
-    "Python.Module_3_additional_practice.executor": "Run",
-    "Python.Module_3_hw_1.executor": "Run",
-    "Python.Module_3_hw_2.executor": "Run",
-    "Python.Module_3_hw_3.executor": "Run",
-    "Python.Module_3_hw_4.executor": "Run",
-    "Python.Module_3_hw_5.executor": "Run",
-    "Python.Module_3_lesson_1.executor": "Run",
-    "Python.Module_3_lesson_2.executor": "Run",
-    "Python.Module_3_lesson_3.executor": "Run",
-    "Python.Module_3_lesson_4.executor": "Run",
-    "Python.Module_3_lesson_6.executor": "Run",
-    "Python.Module_3_lesson_6_7.executor": "Run",
-    "Python.Module_3_lesson_8.executor": "Run",
-    "Python.Module_3_lesson_calculator.executor": "Run",
-    "Python.Module_4_1.executor": "Run",
-    "Python.Module_4_hw_1.executor": "Run",
-    "Python.Module_4_hw_1_fake_math.executor": "Run",
-    "Python.Module_4_hw_1_true_math.executor": "Run",
-    "Python.Module_4_hw_2.executor": "Run",
-    "Python.Module_4_hw_2_1.executor": "Run",
-    "Python.Module_4_lesson_1.executor": "Run",
-    "Python.Module_4_lesson_1_2.executor": "Run",
-    "Python.Module_4_lesson_2.executor": "Run",
-    "Python.Module_4_lesson_2_2.executor": "Run",
-    "Python.Module_4_lesson_3_2.executor": "Run",
-    "Python.Module_4_lesson_4.executor": "Run",
-    "Python.Module_4_lesson_4_5.executor": "Run",
-    "Python.Module_4_practice_1.executor": "Run",
-    "Python.Module_5_additional_practice.executor": "Run",
-    "Python.Module_5_hw_1.executor": "Run",
-    "Python.Module_5_hw_2.executor": "Run",
-    "Python.Module_5_hw_3.executor": "Run",
-    "Python.Module_5_hw_4.executor": "Run",
-    "Python.Module_5_lesson_1.executor": "Run",
-    "Python.Module_5_lesson_2.executor": "Run",
-    "Python.Module_5_lesson_3.executor": "Run",
-    "Python.Module_5_lesson_4.executor": "Run",
-    "Python.Module_5_lesson_5.executor": "Run",
-    "Python.Module_5_lesson_6.executor": "Run",
-    "Python.Proba_1.executor": "Run",
-    "Python.Proba_2.executor": "Run",
-    "Python.Proba_3.executor": "Run",
-    "Python.Proba_4.executor": "Run",
-    "Python.Proba_5.executor": "Run",
-    "Python.SandBox.executor": "Run",
-    "Python.arrays.executor": "Run",
-    "Python.module_1_3.executor": "Run",
-    "Python.module_1_4.executor": "Run",
-    "Python.module_1_5.executor": "Run",
-    "Python.module_1_6.executor": "Run",
-    "Python.module_1_fin.executor": "Run",
-    "Python.module_2_hard.executor": "Run",
-    "Python.proba_proba.executor": "Run",
-    "Python.sortfunc.executor": "Run",
-    "Python.tic-tac-toe.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/vladimirchi/PycharmProjects/pythonProject_2/.venv",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Homework_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Module_2_hw_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_2_hw_3_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_2_hw_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_2_hw_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_2_lesson_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_3_additional_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_3_hw_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_3_hw_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_3_hw_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_3_hw_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_3_hw_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_3_lesson_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_3_lesson_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_3_lesson_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_3_lesson_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_3_lesson_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_3_lesson_6_7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_3_lesson_8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_3_lesson_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_4_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_4_hw_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_4_hw_1_fake_math.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_4_hw_1_true_math.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_4_hw_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_4_hw_2_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_4_lesson_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_4_lesson_1_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_4_lesson_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_4_lesson_2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_4_lesson_3_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_4_lesson_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_4_lesson_4_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_4_practice_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_5_additional_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_5_hw_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_5_hw_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_5_hw_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_5_hw_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_5_lesson_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_5_lesson_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_5_lesson_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_5_lesson_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_5_lesson_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_5_lesson_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Proba_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Proba_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Proba_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Proba_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Proba_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SandBox.executor&quot;: &quot;Run&quot;,
+    &quot;Python.arrays.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_1_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_1_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_1_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_1_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_1_fin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_2_hard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.proba_proba.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sortfunc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tic-tac-toe.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vladimirchi/PycharmProjects/pythonProject_2/.venv&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.venv" />
@@ -173,6 +173,9 @@
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -192,6 +195,9 @@
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -462,7 +468,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728547824174</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Модуль 5 Дополнительная практика 1">
+      <option name="closed" value="true" />
+      <created>1728548102938</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1728548102938</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Модуль 5 Дополнительная практика 1">
+      <option name="closed" value="true" />
+      <created>1728548198836</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1728548198836</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
