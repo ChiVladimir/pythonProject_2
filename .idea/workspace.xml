@@ -7,9 +7,7 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e42ec4f3-cbe9-4053-a20a-693858650dc5" name="Changes" comment="Модуль 5 Лекция 6, дз 4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e42ec4f3-cbe9-4053-a20a-693858650dc5" name="Changes" comment="Модуль 5 Дополнительная практика 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -448,7 +446,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728482575298</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Модуль 5 Дополнительная практика 1">
+      <option name="closed" value="true" />
+      <created>1728547708959</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1728547708959</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Модуль 5 Дополнительная практика 1">
+      <option name="closed" value="true" />
+      <created>1728547824174</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1728547824174</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -510,6 +524,7 @@
     <MESSAGE value="Модуль 5 Лекция 4, дз 3" />
     <MESSAGE value="Модуль 5 Лекция 5, дз 3 (доработанное)" />
     <MESSAGE value="Модуль 5 Лекция 6, дз 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Модуль 5 Лекция 6, дз 4" />
+    <MESSAGE value="Модуль 5 Дополнительная практика 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Модуль 5 Дополнительная практика 1" />
   </component>
 </project>
