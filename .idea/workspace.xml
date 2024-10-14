@@ -7,9 +7,16 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e42ec4f3-cbe9-4053-a20a-693858650dc5" name="Changes" comment="Модуль 5 Дополнительная практика 1">
+    <list default="true" id="e42ec4f3-cbe9-4053-a20a-693858650dc5" name="Changes" comment="Модуль 5 Дополнительная практика (доработка проверки корректности пароля)">
+      <change afterPath="$PROJECT_DIR$/MyPackage_1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package1/package2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package1/package2/package3/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Module_2_hw_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Module_4_practice/arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Module_4_practice/arrays.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/Module_5_additional_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Module_5_additional_practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Module_5_hw_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Module_5_hw_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,77 +71,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Homework_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.Module_2_hw_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_2_hw_3_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_2_hw_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_2_hw_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_2_lesson_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_3_additional_practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_3_hw_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_3_hw_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_3_hw_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_3_hw_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_3_hw_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_3_lesson_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_3_lesson_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_3_lesson_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_3_lesson_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_3_lesson_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_3_lesson_6_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_3_lesson_8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_3_lesson_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_4_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_4_hw_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_4_hw_1_fake_math.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_4_hw_1_true_math.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_4_hw_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_4_hw_2_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_4_lesson_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_4_lesson_1_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_4_lesson_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_4_lesson_2_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_4_lesson_3_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_4_lesson_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_4_lesson_4_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_4_practice_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_5_additional_practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_5_hw_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_5_hw_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_5_hw_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_5_hw_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_5_lesson_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_5_lesson_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_5_lesson_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_5_lesson_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_5_lesson_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_5_lesson_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Proba_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Proba_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Proba_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Proba_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Proba_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SandBox.executor&quot;: &quot;Run&quot;,
-    &quot;Python.arrays.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_1_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_1_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_1_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_1_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_1_fin.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_2_hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.proba_proba.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sortfunc.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tic-tac-toe.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vladimirchi/PycharmProjects/pythonProject_2/.venv&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.01_objects_and_classes.executor": "Run",
+    "Python.02_attrs_and_methods.executor": "Run",
+    "Python.Homework_1.executor": "Run",
+    "Python.Module_1.executor": "Run",
+    "Python.Module_2.executor": "Run",
+    "Python.Module_2_hw_2.executor": "Run",
+    "Python.Module_2_hw_3_4.executor": "Run",
+    "Python.Module_2_hw_5.executor": "Run",
+    "Python.Module_2_hw_6.executor": "Run",
+    "Python.Module_2_lesson_5.executor": "Run",
+    "Python.Module_3_additional_practice.executor": "Run",
+    "Python.Module_3_hw_1.executor": "Run",
+    "Python.Module_3_hw_2.executor": "Run",
+    "Python.Module_3_hw_3.executor": "Run",
+    "Python.Module_3_hw_4.executor": "Run",
+    "Python.Module_3_hw_5.executor": "Run",
+    "Python.Module_3_lesson_1.executor": "Run",
+    "Python.Module_3_lesson_2.executor": "Run",
+    "Python.Module_3_lesson_3.executor": "Run",
+    "Python.Module_3_lesson_4.executor": "Run",
+    "Python.Module_3_lesson_6.executor": "Run",
+    "Python.Module_3_lesson_6_7.executor": "Run",
+    "Python.Module_3_lesson_8.executor": "Run",
+    "Python.Module_3_lesson_calculator.executor": "Run",
+    "Python.Module_4_1.executor": "Run",
+    "Python.Module_4_hw_1.executor": "Run",
+    "Python.Module_4_hw_1_fake_math.executor": "Run",
+    "Python.Module_4_hw_1_true_math.executor": "Run",
+    "Python.Module_4_hw_2.executor": "Run",
+    "Python.Module_4_hw_2_1.executor": "Run",
+    "Python.Module_4_lesson_1.executor": "Run",
+    "Python.Module_4_lesson_1_2.executor": "Run",
+    "Python.Module_4_lesson_2.executor": "Run",
+    "Python.Module_4_lesson_2_2.executor": "Run",
+    "Python.Module_4_lesson_3_2.executor": "Run",
+    "Python.Module_4_lesson_4.executor": "Run",
+    "Python.Module_4_lesson_4_5.executor": "Run",
+    "Python.Module_4_practice_1.executor": "Run",
+    "Python.Module_5_additional_practice.executor": "Run",
+    "Python.Module_5_hw_1.executor": "Run",
+    "Python.Module_5_hw_2.executor": "Run",
+    "Python.Module_5_hw_3.executor": "Run",
+    "Python.Module_5_hw_4.executor": "Run",
+    "Python.Module_5_lesson_1.executor": "Run",
+    "Python.Module_5_lesson_2.executor": "Run",
+    "Python.Module_5_lesson_3.executor": "Run",
+    "Python.Module_5_lesson_4.executor": "Run",
+    "Python.Module_5_lesson_5.executor": "Run",
+    "Python.Module_5_lesson_6.executor": "Run",
+    "Python.Proba_1.executor": "Run",
+    "Python.Proba_2.executor": "Run",
+    "Python.Proba_3.executor": "Run",
+    "Python.Proba_4.executor": "Run",
+    "Python.Proba_5.executor": "Run",
+    "Python.SandBox.executor": "Run",
+    "Python.arrays.executor": "Run",
+    "Python.module_1_3.executor": "Run",
+    "Python.module_1_4.executor": "Run",
+    "Python.module_1_5.executor": "Run",
+    "Python.module_1_6.executor": "Run",
+    "Python.module_1_fin.executor": "Run",
+    "Python.module_2_hard.executor": "Run",
+    "Python.proba_proba.executor": "Run",
+    "Python.sortfunc.executor": "Run",
+    "Python.tic-tac-toe.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/vladimirchi/PycharmProjects/pythonProject_2/.venv",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.venv" />
@@ -143,9 +152,11 @@
       <recent name="$PROJECT_DIR$/.venv/Package_1/Package_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/.venv/Module_4_practice" />
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/.venv/" />
+      <recent name="$PROJECT_DIR$/package1/package2" />
+      <recent name="$PROJECT_DIR$/package1" />
       <recent name="$PROJECT_DIR$/.venv/package_1" />
-      <recent name="$PROJECT_DIR$/.venv/package_1/package_2/paсkage_3" />
     </key>
   </component>
   <component name="RunManager">
@@ -162,7 +173,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/package_1/Module_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/package1/package2/Module_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,9 +228,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Module_2" />
         <item itemvalue="Python.Module_5_additional_practice" />
         <item itemvalue="Python.Module_5_lesson_5" />
-        <item itemvalue="Python.Module_2" />
       </list>
     </recent_temporary>
   </component>
@@ -511,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728574657192</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Модуль 5 Дополнительная практика (доработка проверки корректности пароля)">
+      <option name="closed" value="true" />
+      <created>1728660382812</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1728660382812</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -574,6 +593,7 @@
     <MESSAGE value="Модуль 5 Лекция 5, дз 3 (доработанное)" />
     <MESSAGE value="Модуль 5 Лекция 6, дз 4" />
     <MESSAGE value="Модуль 5 Дополнительная практика 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Модуль 5 Дополнительная практика 1" />
+    <MESSAGE value="Модуль 5 Дополнительная практика (доработка проверки корректности пароля)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Модуль 5 Дополнительная практика (доработка проверки корректности пароля)" />
   </component>
 </project>

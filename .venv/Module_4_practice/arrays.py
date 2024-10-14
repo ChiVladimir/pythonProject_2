@@ -1,4 +1,4 @@
-from sortfunc import insertion_sort, bobble_sort, selection_sort
+from Module_4_practice.sortfunc import insertion_sort, bobble_sort, selection_sort
 
 data_1 = [9, 1, 9, 3, 8, 4, 5, 7, 2, 5, 3, 6, 5, 4, 8, 2, 6, 3, 5, 4]
 data_2 = [6, 4, 7, 5, 6, 9, 3, 6, 2, 4, 3, 8, 5, 0, 3, 7]
