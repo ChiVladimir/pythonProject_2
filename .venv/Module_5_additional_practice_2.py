@@ -3,16 +3,14 @@
 import time
 import sys
 
-from charset_normalizer.utils import range_scan
-
-
 class UrTube:
-    def __init__(self):
-        current_user = None
-#    def __init__(self, users, videos, current_user):
-#        self.users = users
-#        self.videos = videos
-#        self.current_user = current_user
+
+    def __init__(self, *args):
+        user_inp = list(args)
+        self.current_user = None
+        if len(user_inp) == 2:
+            self.users = user_inp[0]
+            self.videos = user_inp[1]
 
     def __log_in__(self, nickname, password):
         self.user = nickname
