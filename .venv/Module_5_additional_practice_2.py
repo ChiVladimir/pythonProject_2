@@ -56,26 +56,37 @@ class UrTube:
                 kinopoisk_.append(video.title)
         return kinopoisk_
 
-    def watch_video(self, title, duration):
-        if get_videos(title) in self.title:
-            if self.age < 18:
-                print("Вам нет 18 лет, пожалуйста покиньте страницу")
-                if self.current_user == None:
-                    print("Войдите в аккаунт, чтобы смотреть видео")
-        for remaining in range(duration):
-            sys.stdout.write("\r")
-            sys.stdout.write("{:2d} seconds remaining.".format(remaining))
-            sys.stdout.flush()
-            time.sleep(1)
-            sys.stdout.write("\rComplete!            \n")
-#            time.sleep(duration)
-            exit()
+    def watch_video(self, kino: str):
+        if self.current_user:
+            for video in self.videos:
+                if video.adult_mode == True and self.current_user.age < 18:
+                    print("Вам нет 18 лет, пожалуйста покиньте страницу")
+                    return
+                if kino in video.title:
+                    i = 0
+                    while i < video.duration:
+                        print(i, end=' ')
+                        time.sleep(1)
+                        i += 1
+                    print("Конец фильма")
+
+        else:
+            print('Войдите в аккаунт, чтобы смотреть видео')
+
+    def register(self, nickname: str, password: str, age: int):
+        for user in self.users:
+            if nickname == user.nickname:
+                print(f"Пользователь {nickname} уже существует")
+                return
+        user_new = User(nickname, hash(password), age)
+        self.users.append(user_new)
+        self.current_user = user_new
+
 
 
 ur = UrTube()
-u1 = User('Bob','qwerty', 20)
-v1 = Video('Лучший язык программирования 2024 года', 200)
-v2 = Video('Для чего девушкам парень программист?', 10, adult_mode=True)
+v2 = Video('Лучший язык программирования 2024 года', 200)
+v1 = Video('Для чего девушкам парень программист?', 10, adult_mode=True)
 
 # Добавление видео
 ur.add(v1, v2)
@@ -83,7 +94,7 @@ ur.add(v1, v2)
 # Проверка поиска
 print(ur.get_videos('лучший'))
 print(ur.get_videos('ПРОГ'))
-"""
+
 # Проверка на вход пользователя и возрастное ограничение
 ur.watch_video('Для чего девушкам парень программист?')
 ur.register('vasya_pupkin', 'lolkekcheburek', 13)
@@ -99,4 +110,3 @@ print(ur.current_user)
 ur.watch_video('Лучший язык программирования 2024 года!')
 
 
-"""
