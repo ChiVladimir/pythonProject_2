@@ -48,13 +48,13 @@ class UrTube:
             if kino.title not in [video.title for video in self.videos]:
                 self.videos.append(kino)
 
-    def get_videos(self,):
-        def __get_videos__(self, videos):
-            ask_videos = lower(videos.replace(" ", ""))
-            exist_videos = lower(self.title.replace(" ", ""))
-            if ask_videos in exist_videos:
-                print(self)
-                return self
+    def get_videos(self, kinopoisk: str):
+        kinopoisk_ = list()
+        for video in self.videos:
+            if kinopoisk.lower() in video.title.lower():
+#                print('yes', video.title)
+                kinopoisk_.append(video.title)
+        return kinopoisk_
 
     def watch_video(self, title, duration):
         if get_videos(title) in self.title:
@@ -76,25 +76,27 @@ ur = UrTube()
 u1 = User('Bob','qwerty', 20)
 v1 = Video('Лучший язык программирования 2024 года', 200)
 v2 = Video('Для чего девушкам парень программист?', 10, adult_mode=True)
-#print (v1.args, v2.args)
+
 # Добавление видео
-ur.add(v1,v2)
+ur.add(v1, v2)
 
 # Проверка поиска
 print(ur.get_videos('лучший'))
 print(ur.get_videos('ПРОГ'))
 """
-    # Проверка на вход пользователя и возрастное ограничение
-    ur.watch_video('Для чего девушкам парень программист?')
-    ur.register('vasya_pupkin', 'lolkekcheburek', 13)
-    ur.watch_video('Для чего девушкам парень программист?')
-    ur.register('urban_pythonist', 'iScX4vIJClb9YQavjAgF', 25)
-    ur.watch_video('Для чего девушкам парень программист?')
+# Проверка на вход пользователя и возрастное ограничение
+ur.watch_video('Для чего девушкам парень программист?')
+ur.register('vasya_pupkin', 'lolkekcheburek', 13)
+ur.watch_video('Для чего девушкам парень программист?')
+ur.register('urban_pythonist', 'iScX4vIJClb9YQavjAgF', 25)
+ur.watch_video('Для чего девушкам парень программист?')
 
-    # Проверка входа в другой аккаунт
-    ur.register('vasya_pupkin', 'F8098FM8fjm9jmi', 55)
-    print(ur.current_user)
+# Проверка входа в другой аккаунт
+ur.register('vasya_pupkin', 'F8098FM8fjm9jmi', 55)
+print(ur.current_user)
 
-    # Попытка воспроизведения несуществующего видео
-    ur.watch_video('Лучший язык программирования 2024 года!')
+# Попытка воспроизведения несуществующего видео
+ur.watch_video('Лучший язык программирования 2024 года!')
+
+
 """
