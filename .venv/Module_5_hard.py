@@ -63,7 +63,7 @@ class UrTube:
                     print("Вам нет 18 лет, пожалуйста покиньте страницу")
                     return
                 if kino in video.title:
-                    i = 0
+                    i = 1
                     while i < video.duration:
                         print(i, end=' ')
                         time.sleep(1)
@@ -85,8 +85,8 @@ class UrTube:
 
 
 ur = UrTube()
-v2 = Video('Лучший язык программирования 2024 года', 200)
-v1 = Video('Для чего девушкам парень программист?', 10, adult_mode=True)
+v1 = Video('Лучший язык программирования 2024 года', 200)
+v2 = Video('Для чего девушкам парень программист?', 10, adult_mode=True)
 
 # Добавление видео
 ur.add(v1, v2)
