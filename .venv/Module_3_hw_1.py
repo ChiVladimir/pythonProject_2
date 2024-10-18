@@ -3,7 +3,7 @@ calls = 0
 def count_calls():
     global calls
     calls += 1
-    return calls
+#    return calls - не требуется так ка мы меняем глобальную переменную
 
 def string_info(string_a):
     count_calls()
@@ -13,14 +13,13 @@ def string_info(string_a):
 
 def  is_contains(string_b, list_to_search):
     count_calls()
-    cond = False
     a = string_b.lower()
     for i in range(0, len(list_to_search)):
         b = list_to_search[i]
         b = b.lower()
         if a == b:
-            cond = True
-    return cond
+            return True
+    return False
 
 
 print(string_info('Capybara'))

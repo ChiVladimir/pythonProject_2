@@ -1,3 +1,5 @@
+# более корректно делать проверку окончания через вызов функции name.endswith('.com', '.net', '.ru')
+
 def validity_address(email):
 
     check = ['.com', '.net', '.ru']
