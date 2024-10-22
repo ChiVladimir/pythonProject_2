@@ -1,5 +1,6 @@
 # Доступ к свойствам родителя. Переопределение свойств.
 # Задача "Изменять нельзя получать"
+#from colorama import init, Fore, Back, Style
 
 class Vehicle:
     __COLOR_VARIANTS = ['blue', 'red', 'green', 'black', 'white']
@@ -11,23 +12,23 @@ class Vehicle:
         self.__color = str(__color)
 
     def get_model(self):
-        return f"Модель: {self.__model}"
+        return f"\033[34;40mМодель: {self.__model}\033[0m"
 
     def get_horsepower(self):
-        return f"Мощность двигателя: {self.__engine_power}"
+        return f"\033[34;40mМощность двигателя: {self.__engine_power}\033[0m"
 
     def get_color(self):
-        return f"Цвет: {self.__color}"
+        return f"\033[34;40mЦвет: {self.__color}\033[0m"
 
     def print_info(self):
         print(Vehicle.get_model(self), Vehicle.get_horsepower(self), Vehicle.get_color(self),
-              f"Владелец: {self.owner}", sep='\n')
+              f"\033[34;40mВладелец: {self.owner}\033[0m", sep='\n')
 
     def set_color(self, new_color):
         if new_color.lower() in self.__COLOR_VARIANTS:
             self.__color = new_color
         else:
-            print(f"Нельзя сменить цвет на {new_color}")
+            print(f"\033[38;2;201;100;59mНельзя сменить цвет на {new_color}\033")
 
 
 class Sedan(Vehicle):
