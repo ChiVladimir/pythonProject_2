@@ -1,6 +1,6 @@
 # Доступ к свойствам родителя. Переопределение свойств.
 # Задача "Изменять нельзя получать"
-#from colorama import init, Fore, Back, Style
+
 
 class Vehicle:
     __COLOR_VARIANTS = ['blue', 'red', 'green', 'black', 'white']
