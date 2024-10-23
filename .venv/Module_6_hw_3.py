@@ -9,7 +9,6 @@ class Horse:
 
     def run(self, dx):
         self.x_distance = self.x_distance + dx
-        return self.x_distance
 
 class Eagle:
     def __init__(self):
@@ -18,7 +17,6 @@ class Eagle:
 
     def fly(self, dy):
         self.y_distance = self.y_distance + dy
-        return self.y_distance
 
 class Pegasus(Horse, Eagle):
     def __init__(self):
