@@ -39,7 +39,6 @@ class Pegasus(Horse, Eagle):
         print(self.sound)
 
 p1 = Pegasus()
-#print(dir(p1))
 
 print(p1.get_pos())
 p1.move(10, 15)
