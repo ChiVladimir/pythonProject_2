@@ -1,6 +1,8 @@
 #Модуль 6. Дополнительная практика
 #Задание "Они все так похожи"
 
+import math
+
 
 class Figure:
     sides_count = 0
@@ -36,32 +38,47 @@ class Figure:
         return sum(__sides)
 
     def set_sides(self, *new_sides):
-        if is_valid_sides():
+        print(new_sides)
+        self.check_set_sides = True
+        for i in range(0, len(new_sides)):
+            if not isinstance(new_sides[i], int):
+                self.check_set_sides = False
+        if is_valid_sides() and self.check_set_sides == True:
             __sides = new_sides
 
+class Cube(Figure):
+    sides_count = 12
+    def __init__(self, color: tuple, side: int):
+        super().__init__()
+        self._sides = []
+        self.side = side
+        self.__color = color
+        for i in range(0, 11):
+            self._sides.append(side)
+        self.__sides = tuple(self._sides)
 
+    def get_volume(self):
+        return math.pow(self.side, 3)
 
-
-
-
-circle1 = Circle((200, 200, 100), 10) # (Цвет, стороны)
+#
+# circle1 = Circle((200, 200, 100), 10) # (Цвет, стороны)
 cube1 = Cube((222, 35, 130), 6)
-
-# Проверка на изменение цветов:
-circle1.set_color(55, 66, 77) # Изменится
-print(circle1.get_color())
-cube1.set_color(300, 70, 15) # Не изменится
-print(cube1.get_color())
-
-# Проверка на изменение сторон:
+#
+# # Проверка на изменение цветов:
+# circle1.set_color(55, 66, 77) # Изменится
+# print(circle1.get_color())
+# cube1.set_color(300, 70, 15) # Не изменится
+# print(cube1.get_color())
+#
+# # Проверка на изменение сторон:
 cube1.set_sides(5, 3, 12, 4, 5) # Не изменится
 print(cube1.get_sides())
-circle1.set_sides(15) # Изменится
-print(circle1.get_sides())
-
-# Проверка периметра (круга), это и есть длина:
-print(len(circle1))
-
-# Проверка объёма (куба):
-print(cube1.get_volume())
-
+# circle1.set_sides(15) # Изменится
+# print(circle1.get_sides())
+#
+# # Проверка периметра (круга), это и есть длина:
+# print(len(circle1))
+#
+# # Проверка объёма (куба):
+# print(cube1.get_volume())
+#
