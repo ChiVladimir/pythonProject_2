@@ -7,55 +7,69 @@ import math
 class Figure:
     sides_count = 0
 
-    def __init__(self):
-        self.__sides = tuple
-        self.__color = tuple
+    def __init__(self, color, *sides):
+        self.__sides = sides
+        self.__color = color
         self.filled =bool
+        self.__sides = []
+        self.set_sides(*sides)
 
     def get_color(self):
-        return self._color
+        return self.__color
 
     def __is_valid_color(self, r, g, b):
         if 0 <= r <= 255 and 0 <= g <= 255 and 0 <= b <= 255:
-            self.r = r, self.g = g, self.b = b
+            return r, g, b
+        else:
+            return self.__color
 
     def set_color(self, r, g, b):
-        __is_valid_color(r, g, b)
+        new_color = self.__is_valid_color(r, g, b)
+        self.__color = list(new_color)
+        return self.__color
 
-    def is_valid_sides(self, *args):
-        self.valid_sides = False
-        neg = tuple(i for i in args if i < 0)
-        if len(args) == self.__sides:
-            self.valid_sides = True
-            if len(neg) > 0:
-                self.valid_sides = False
-        return self.valid_sides
+    def __is_valid_sides(self, new_sides):
+        for i in range(len(new_sides)):
+            if self.sides_count != len(new_sides):
+                return False
+            if new_sides[i] <= 0:
+                return False
+        return True
 
     def get_sides(self):
-        return __sides
+        return self.__sides
 
-    def __len__(self, __sides):
-        return sum(__sides)
+    def __len__(self):
+        return sum(self.__sides)
 
-    def set_sides(self, *new_sides):
-        print(new_sides)
-        self.check_set_sides = True
-        for i in range(0, len(new_sides)):
-            if not isinstance(new_sides[i], int):
-                self.check_set_sides = False
-        if is_valid_sides() and self.check_set_sides == True:
-            __sides = new_sides
+    def set_sides(self, *sides):
+        print('init set_sides',self.__sides, self.__color, sides)
+        check_sides = True
+        for i in range(len(sides)):
+            if not isinstance(sides[i], int):
+                print('xxxx', sides[i], isinstance(sides[i], int))
+                check_sides = False
+                break
+        if check_sides:
+            if len(sides) == 1 and self.sides_count == 12:
+                self.__sides = []
+                for i in range(self.sides_count):
+                    self.__sides.append(*sides)
+            elif self.__is_valid_sides(sides):
+                self.__sides = [*sides]
+            else:
+                return self.__sides
 
 class Cube(Figure):
     sides_count = 12
-    def __init__(self, color: tuple, side: int):
-        super().__init__()
-        self._sides = []
-        self.side = side
+
+    def __init__(self, color, *side):
+        super().__init__(color, *side)
+        self.__sides = [*side]
         self.__color = color
-        for i in range(0, 11):
-            self._sides.append(side)
-        self.__sides = tuple(self._sides)
+        for i in range(0, self.sides_count):
+            self.__sides.append(*side)
+        self.__sides = list(self.__sides)
 
     def get_volume(self):
         return math.pow(self.side, 3)
