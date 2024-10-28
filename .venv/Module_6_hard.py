@@ -43,11 +43,9 @@ class Figure:
         return sum(self.__sides)
 
     def set_sides(self, *sides):
-        print('init set_sides',self.__sides, self.__color, sides)
         check_sides = True
         for i in range(len(sides)):
             if not isinstance(sides[i], int):
-                print('xxxx', sides[i], isinstance(sides[i], int))
                 check_sides = False
                 break
         if check_sides:
@@ -65,6 +63,7 @@ class Cube(Figure):
 
     def __init__(self, color, *side):
         super().__init__(color, *side)
+        self.side = side
         self.__sides = [*side]
         self.__color = color
         for i in range(0, self.sides_count):
@@ -72,27 +71,51 @@ class Cube(Figure):
         self.__sides = list(self.__sides)
 
     def get_volume(self):
-        return math.pow(self.side, 3)
+        return math.pow(self.side[0], 3)
 
-#
-# circle1 = Circle((200, 200, 100), 10) # (Цвет, стороны)
+class Circle(Figure):
+    sides_count = 1
+    def __init__(self, color, radius):
+        super().__init__(color, radius)
+        self.__len = radius * math.pi
+        self.__color = color
+
+    def get_square(self):
+        return math.pow(self.redius,2) * math.pi
+
+class Triangle(Figure):
+    sides_count = 3
+    def __init__(self, color, *sides):
+        super().__init__(color, __sides)
+        self.__color = color
+        a = self.__sides[1]
+        b = self.__sides[2]
+        c = self.__sides[3]
+        p = 0,5 * (a + b + c)
+
+    def get_square(self):
+        return math.math.sqrt(p * (p - a) * (p - b) * (p - c))
+
+
+
+circle1 = Circle((200, 200, 100), 10) # (Цвет, стороны)
 cube1 = Cube((222, 35, 130), 6)
-#
-# # Проверка на изменение цветов:
-# circle1.set_color(55, 66, 77) # Изменится
-# print(circle1.get_color())
-# cube1.set_color(300, 70, 15) # Не изменится
-# print(cube1.get_color())
-#
-# # Проверка на изменение сторон:
+
+# Проверка на изменение цветов:
+circle1.set_color(55, 66, 77) # Изменится
+print(circle1.get_color())
+cube1.set_color(300, 70, 15) # Не изменится
+print(cube1.get_color())
+
+# Проверка на изменение сторон:
 cube1.set_sides(5, 3, 12, 4, 5) # Не изменится
 print(cube1.get_sides())
-# circle1.set_sides(15) # Изменится
-# print(circle1.get_sides())
-#
-# # Проверка периметра (круга), это и есть длина:
-# print(len(circle1))
-#
-# # Проверка объёма (куба):
-# print(cube1.get_volume())
-#
+circle1.set_sides(15) # Изменится
+print(circle1.get_sides())
+
+# Проверка периметра (круга), это и есть длина:
+print(len(circle1))
+
+# Проверка объёма (куба):
+print(cube1.get_volume())
+
