@@ -28,6 +28,6 @@ file.close()
 
 name = 'simple_2.txt'
 file = open(name, 'a')
-print(file.tell())
+print(">>>>>>", file.tell())
 file.write('\nHello, world!')
 file.close()

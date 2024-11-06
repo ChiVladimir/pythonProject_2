@@ -22,16 +22,20 @@ for i in chars:
     s +=chr(i)
 print(s)
 
-# for i in range(128): #ASCII - 128 symbols
-#     print(chr(i), ' = ', ord(chr(i)))
+for i in range(128): #ASCII - 128 symbols
+    print(chr(i), ' = ', ord(chr(i)))
 
-# for i in range(1000, 1200): #UniCode - about 150 000 symbols
-#     print(chr(i), ' = ', ord(chr(i)))
+for i in range(1000, 1200): #UniCode - about 150 000 symbols
+    print(chr(i), ' = ', ord(chr(i)))
 
-# for i in range(128): #bytes
-#      print(chr(i), ' = ', hex(ord(chr(i))))
+for i in range(128): #bytes
+     print(chr(i), ' = ', hex(ord(chr(i))))
 
 print(hex(ord('H')))
 bb = b'0x48'
 print(bb.decode())
+
+print(len("hello".encode("utf8")))
+print(len("Привет".encode("utf8")))
+
 
