@@ -25,42 +25,33 @@ class WordsFinder:
 
     def find(self, word):
         self.word = word
-        found_word = {}
         key = self.file_name
+        file_as_dict = self.get_all_words()
+        words = file_as_dict.get(key)
+        found_word = {}
         _mash = ''
-        words = []
         pos = []
-        with open(self.file_name) as file:
-            for line in file:
-                for char in line.lower():
-                    _mash = str(_mash) + str(char)
-                words = _mash.split()
+        for i in [i for i, x in enumerate(words) if x == self.word.lower()]:
+            pos.append(i + 1)
+        values = pos[0]
+        found_word = {key: values}
 
-            for i in [i for i, x in enumerate(words) if x == self.word.lower()]:
-                pos.append(i + 1)
-                values = pos[0]
-            found_word = {key: values}
-            return found_word
+        return found_word
 
     def count(self, word):
         self.word = word
-        found_words = {}
         key = self.file_name
+        file_as_dict = self.get_all_words()
+        words = file_as_dict.get(key)
+        found_word = {}
         _mash = ''
-        words = []
         pos = []
-        with open(self.file_name) as file:
-            for line in file:
-                for char in line.lower():
-                    _mash = str(_mash) + str(char)
-                words = _mash.split()
+        for i in [i for i, x in enumerate(words) if x == self.word.lower()]:
+            pos.append(i + 1)
+        values = len(pos)
+        found_words = {key: values}
 
-            for i in [i for i, x in enumerate(words) if x == self.word.lower()]:
-                pos.append(i + 1)
-                values = len(pos)
-            found_words = {key: values}
-
-            return found_words
+        return found_words
 
 
 
@@ -76,6 +67,13 @@ print(finder1.count('captain'))
 
 finder3 = WordsFinder('Mother Goose - Monday’s Child.txt',)
 print(finder3.get_all_words())
+print(finder3.find('Child'))
+print(finder3.count('Child'))
+
+finder4 = WordsFinder('Rudyard Kipling - If.txt',)
+print(finder4.get_all_words())
+print(finder4.find('if'))
+print(finder4.count('if'))
 print(finder3.find('Child'))
 print(finder3.count('Child'))
 
