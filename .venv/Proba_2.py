@@ -1,33 +1,78 @@
-name = input("Enter your name: ")
-current_year = 2024
-date_of_birth = int(input("What year you was born? "))
-age = current_year - date_of_birth
-print (type(name))
-print (type(date_of_birth))
-print (type(age))
-print ("Hello, ", name)
-print ("In this year you have", age, "years old")
+# Домашнее задание по теме "Оператор "with".
+# Задача "Найдёт везде"
+import io
+from pprint import pprint
 
 
-# Variant 2
+class WordsFinder:
+    def __init__(self, file_name):
+        self.file_name = file_name
 
-#name = input("Enter your name: ")
-#current_year = 2024
-#date_of_birth = input("What year you was born? ")
-#age = current_year - int(date_of_birth)
-#print ("Hello, ", name)
-#print ("In this year you have", age, "years old")
+    def get_all_words(self):
+        all_worlds = {}
+        _mash = ''
+        key = self.file_name
+        simbols_4_delete = [',', '.', '=', '!', '?', ';', ':', ' - ']
+        with open(self.file_name) as file:
+            for line in file:
+                for char in line.lower():
+                    if char not in simbols_4_delete:
+                        _mash = str(_mash) + str(char)
+                    values = _mash.split()
+            all_worlds = {key:values}
 
-name = input("Enter your name: ")
-current_year = 2024
-date_of_birth = int(input("What is your year of birth? "))
-#print (type(name))
-age = current_year - date_of_birth
-print ("Hello,", name)
-print ("You have", age, "years old in this year.")
+            return all_worlds
 
-#----------------------------
+    def find(self, word):
+        self.word = word
+        key = self.file_name
+        file_as_dict = self.get_all_words()
+        words = file_as_dict.get(key)
+        found_word = {}
+        _mash = ''
+        pos = []
+        for i in [i for i, x in enumerate(words) if x == self.word.lower()]:
+            pos.append(i + 1)
+        values = pos[0]
+        found_word = {key: values}
 
-print ('Привет, я строка в нижнем, '.lower(), 'а я - в верхнем регистре'.upper())
-print ('Привет, я строка в нижнем регистре, '.replace(' ', '#'))
+        return found_word
+
+    def count(self, word):
+        self.word = word
+        key = self.file_name
+        file_as_dict = self.get_all_words()
+        words = file_as_dict.get(key)
+        found_word = {}
+        _mash = ''
+        pos = []
+        for i in [i for i, x in enumerate(words) if x == self.word.lower()]:
+            pos.append(i + 1)
+        values = len(pos)
+        found_words = {key: values}
+
+        return found_words
+
+
+
+finder2 = WordsFinder('test_file.txt')
+print(finder2.get_all_words()) # Все слова
+print(finder2.find('TEXT')) # 3 слово по счёту
+print(finder2.count('teXT')) # 4 слова teXT в тексте всего
+
+finder1 = WordsFinder('Walt Whitman - O Captain! My Captain!.txt')
+print(finder1.get_all_words())
+print(finder1.find('captain'))
+print(finder1.count('captain'))
+
+finder3 = WordsFinder('Mother Goose - Monday’s Child.txt',)
+print(finder3.get_all_words())
+print(finder3.find('Child'))
+print(finder3.count('Child'))
+
+finder4 = WordsFinder('Rudyard Kipling - If.txt',)
+print(finder4.get_all_words())
+print(finder4.find('if'))
+print(finder4.count('if'))
+
 
