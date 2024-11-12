@@ -24,6 +24,9 @@ print('I study at the {title}{postfix} {title}.'.format(title = 'Urban', postfix
 
 print(f'{"Urban" * 2} is the best')
 
+price = 100.5
+print("Цена товара: {:.2f} рублей.".format(price))
+
 
 
 
