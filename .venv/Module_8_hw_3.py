@@ -18,7 +18,7 @@ class Car:
     def __is_valid_vin(self, vin_number):
         if not isinstance(vin_number, int):
             raise IncorrectVinNumber('Некорректный тип vin номер')
-        elif vin_number not in range(1000000, 9999999):
+        elif vin_number not in range(1000000, 10000000):
             raise IncorrectVinNumber('Неверный диапазон для vin номера')
         else:
             return vin_number
@@ -35,7 +35,7 @@ class Car:
 
 
 try:
-  first = Car('Model1', 1000000, 'f123dj')
+  first = Car('Model1', 9999999, 'f123dj')
 except IncorrectVinNumber as exc:
   print(exc.message)
 except IncorrectCarNumbers as exc:
