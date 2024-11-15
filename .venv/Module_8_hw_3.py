@@ -35,7 +35,7 @@ class Car:
 
 
 try:
-  first = Car('Model1', 9999999, 'f123dj')
+  first = Car('Model1', 1000000, 'f123dj')
 except IncorrectVinNumber as exc:
   print(exc.message)
 except IncorrectCarNumbers as exc:
