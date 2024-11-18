@@ -13,7 +13,6 @@ show - напечатать все добавленные задачи.
 exit - выход из программы"""
 
 task = str
-#deadline = date
 today_tasks  = []
 tomorrow_tasks  = []
 other_tasks  = []
