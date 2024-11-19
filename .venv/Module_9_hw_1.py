@@ -12,11 +12,18 @@ def apply_all_func(int_list, *functions):
 
 def strings_2_numbers(y):
     if isinstance(y, str):
-        return int(y)
+        try:
+            result = int(y)
+            return result
+        except ValueError:
+            result = len(y)
+            return result
+        else:
+            print('Что-то странное!')
     else:
         return y
 
 
-print(apply_all_func([6, '20', 15, 9], max, min))
-print(apply_all_func([6, 20, 15, 9], len, sum, sorted))
+print(apply_all_func([6, 20, 15, 9], max, min))
+print(apply_all_func([6, 'qqqq', 15, 9], len, sum, sorted))
 
