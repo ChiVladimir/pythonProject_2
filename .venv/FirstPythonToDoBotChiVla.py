@@ -3,7 +3,7 @@ from random import choice
 from datetime import datetime
 from telebot import types
 
-token = ""
+token = "bot was killed"
 bot = telebot.TeleBot(token)
 RANDOM_TASKS = ['Написать письмо', 'Выучить Python', 'Записаться на курс кройки и шитья', 'Посмотреть 4 сезон Рик и Морти']
 
