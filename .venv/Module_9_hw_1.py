@@ -10,18 +10,18 @@ def apply_all_func(int_list, *functions):
         results[key] = value
     return results
 
-def strings_2_numbers(y):
-    if isinstance(y, str):
+def strings_2_numbers(int_list):
+    if isinstance(int_list, str):
         try:
-            result = int(y)
+            result = int(int_list)
             return result
         except ValueError:
-            result = len(y)
+            result = len(int_list)
             return result
         else:
             print('Что-то странное!')
     else:
-        return y
+        return int_list
 
 
 print(apply_all_func([6, 20, 15, 9], max, min))
