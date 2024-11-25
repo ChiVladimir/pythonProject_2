@@ -10,7 +10,7 @@ def all_variants(text):
 
 
 
-a = all_variants("abc")
+a = all_variants("abcd")
 for i in a:
     print(i)
 
