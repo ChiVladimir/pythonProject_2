@@ -18,8 +18,6 @@ class Bank:
             self.balance += income
             time.sleep(0.001)
             print(f'Пополнение: {income}. Баланс: {self.balance}')
-            i += 1
-            #print(self.lock.locked())
             if self.balance >= 500 and self.lock.locked():
                 self.lock.release()
 
@@ -31,7 +29,6 @@ class Bank:
             if outcome <= self.balance:
                 self.balance -= outcome
                 print(f'Снятие: {outcome}. Баланс: {self.balance}')
-                j += 1
             else:
                 print('Запрос отклонён, недостаточно средств')
                 self.lock.acquire()
