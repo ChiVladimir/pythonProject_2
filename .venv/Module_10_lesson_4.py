@@ -1,86 +1,35 @@
-import random
-from threading import Thread
-from time import sleep
+# Очереди в потоках
 from queue import Queue
-
-#  Класс Table - стол, хранит информацию о находящемся за ним гостем (Guest).
-class Table():
-    def __init__(self, number):
-        self.number = number
-        self.guest = None
-
-# Класс Guest - гость, поток, при запуске которого происходит задержка от 3 до 10 секунд.
-class Guest(Thread):
-    def __init__(self, name):
-        super().__init__()
-        self.name = name
-
-    def run(self):
-        # sleep(random.randint(3, 10))
-        pause =  random.randint(3, 10)
-        sleep(pause)
-
-# Класс Cafe - кафе, в котором есть определённое кол-во столов
-# и происходит имитация прибытия гостей (guest_arrival) и их обслуживания (discuss_guests).
-class Cafe:
-    list_thr = []
-
-    def __init__(self, *tables):
-        self.queue = Queue()
-        self.tables = list(tables)
-
-    def guest_arrival(self, *guests):
-        list_guests = list(guests)
-        list_tables = self.tables
-        len_list_guests = len(list_guests)
-        min_guests_tables = min(len_list_guests, len(self.tables))
-        for i in range(min_guests_tables):
-            list_tables[i].guest = guests[i]
-            thr1 = guests[i]
-            thr1.start()
-            Cafe.list_thr.append(thr1)
-            print(f'{list_guests[i].name} сел(-а) за стол номер {list_tables[i].number}')
-        if len_list_guests > min_guests_tables:
-            for i in range(min_guests_tables, len_list_guests):
-                self.queue.put(guests[i])
-                print(f'{list_guests[i].name} в очереди')
-
-    def discuss_guests(self):
-        while not (self.queue.empty()) or Cafe.check_table(self):
-            for table in self.tables:
-                if not (table.guest is None) and not (table.guest.is_alive()):
-                    print(f'{table.guest.name} покушал(-а) и ушёл(ушла)')
-                    print(f'Стол номер {table.number} свободен')
-                    table.guest = None
-                if (not (self.queue.empty())) and table.guest is None:
-                    table.guest = self.queue.get()
-                    print(f'{table.guest.name} вышел(-ла) из очереди и сел(-а) за стол номер {table.number}')
-                    thr1 = table.guest
-                    thr1.start()
-                    Cafe.list_thr.append(thr1)
-
-    def check_table(self):
-        for table in self.tables:
-            if table.guest is not None:
-                return True
-        return False
+import time
+import threading
 
 
-# Создание столов
-tables = [Table(number) for number in range(1, 6)]
-# Имена гостей
-guests_names = [
-'Maria', 'Oleg', 'Vakhtang', 'Sergey', 'Darya', 'Arman',
-'Vitoria', 'Nikita', 'Galina', 'Pavel', 'Ilya', 'Alexandra'
-]
-# Создание гостей
-guests = [Guest(name) for name in guests_names]
-# Заполнение кафе столами
-cafe = Cafe(*tables)
-# Приём гостей
-# cafe.guest_arrival(*guests)
-cafe.guest_arrival(*guests)
-# Обслуживание гостей
-cafe.discuss_guests()
-for thr in Cafe.list_thr:
-    thr.join()
+print('\nExample 1')
+
+q = Queue()
+
+q.put(5)
+
+print(q.get(timeout=3))
+print("End of program")
+
+print('\nExample 2')
+
+def getter(queue):
+    while True: # not queue.empty():
+        time.sleep(1)
+        item = queue.get()
+        print(f'Element {item} is got\n')
+
+q = Queue(maxsize=10)
+thread_1 = threading.Thread(target=getter, args=(q,), daemon=True)
+thread_1.start()
+
+for i in range(10):
+    time.sleep(3)
+    q.put(i)
+    print(f'Element {threading.current_thread()} was put, trial {i}.\n')
+
+
+
+
