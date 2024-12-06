@@ -9,7 +9,7 @@ def read_info(file_name):
     all_data = []
     f = open(file_name, "r")
     step = f.readlines()
-    all_data = [all_data.append(step[i])for i in range(0, len(step))]
+    all_data = [all_data.append(step[i]) for i in range(0, len(step))]
 
 filenames = [f'./file {number}.txt' for number in range(1, 5)]
 
