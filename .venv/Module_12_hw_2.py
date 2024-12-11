@@ -1,6 +1,5 @@
 #Домашнее задание по теме "Методы Юнит-тестирования"
 import unittest
-import collections
 
 class Runner:
     def __init__(self, name, speed=5):
@@ -39,7 +38,6 @@ class Tournament:
                     finishers[place] = participant
                     place += 1
                     self.participants.remove(participant)
-
         return finishers
 
 
