@@ -15,6 +15,9 @@ def div(a, b):
 def add_(a, b):
     return a * 2 + b * 3
 
+def none_(a, b):
+    pass
+
 
 if __name__ == "__main__":
     print(add(100, 10))
