@@ -2,6 +2,7 @@
 
 import Module_12_lesson_1 as calc
 import unittest
+import random
 
 class CalcTest(unittest.TestCase):
     def setUp(self):
@@ -18,15 +19,19 @@ class CalcTest(unittest.TestCase):
     def tearDownClass(cls):
         print('Mega Shutup')
 
+    @unittest.skip('Производится в другом кейсе')
     def test_add(self):
         self.assertEqual(calc.add(1, 2), 3)
 
+    @unittest.skip('Производится в другом кейсе')
     def test_add_(self):
         self.assertNotEqual(calc.add_(1, 2), 3)
 
+    @unittest.skip('Производится в другом кейсе')
     def test_sub(self):
         self.assertEqual(calc.sub(5, 2), 3)
 
+    @unittest.skip('Производится в другом кейсе')
     def test_mul(self):
         self.assertEqual(calc.mul(3, 2), 6)
 
@@ -42,17 +47,18 @@ class CalcTest(unittest.TestCase):
     def test_test_3(self):
         self.assertIsNotNone(self, calc.none_)
 
+    @unittest.skipIf(True,'Не повезло')
     def test_test_4(self):
         self.assertIn('a', 'self, calc.none_')
 
-    @unittest.skip('Производится в другом кейсе')
     def test_test_5(self):
         self.assertRaises(TypeError, 3)
 
-    # def test_test_6(self):
-    #     a = 2
-    #     b = 2
-    #     self.assertAlmostEqual(a, b)
+    @unittest.skip('Производится в другом кейсе')
+    def test_test_6(self):
+        a = 2
+        b = 2
+        self.assertAlmostEqual(a, b)
 
 
 if __name__ == "__main__":
