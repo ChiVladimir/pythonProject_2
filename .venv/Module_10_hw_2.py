@@ -33,3 +33,7 @@ second_knight = Knight("Sir Galahad", 20)
 
 first_knight.start()
 second_knight.start()
+first_knight.join()
+second_knight.join()
+
+print ('Все битвы закончились!')
